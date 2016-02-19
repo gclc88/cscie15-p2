@@ -14,7 +14,7 @@
 <H1> Password Generator </H1>
 <div class="center">
 <form action='index.php' method='POST'>
-	Number of Characters: <input type='text' name='num' maxlength="1" size="1"> (3-9)
+	Number of Words: <input type='text' name='num' maxlength="1" size="1"> (3-9)
 		<span class="errorMessage"> <?php echo "$errorMsg" ?> </span> <br>
 	
 	<input type="checkbox" name="addNumber" value="Yes" > Add Number <br>
