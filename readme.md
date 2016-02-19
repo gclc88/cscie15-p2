@@ -1,19 +1,21 @@
 # CSCI E15 Project 1=2 - Godfrey CHENG
 
 ## Live URL
-<http://p1.godfreycheng.me>
+<http://p2.godfreycheng.me>
 
 ## Description
 - CSCI E15 Project #2. Password Generator
-- Webapp include, index.php, main.css and photo.jpg resides in /var/www/html/cscie15-p1 folder at root@162.243.61.245 (account in DigitalOcean).
+- Webapp include, index.php, pw-generator.php and main.css
+- index.php is the page which display the form and the genearted result
+- pw-generator.php contains the log to validate the input paramter "num" must be a number and then generate a password consist of the specified number of words.
+- Error message is generated if the "num" parameter is not a number of the value is out of the range, i.e. 3 to 6 words.
 
 
 ## Demo
 <https://youtu.be/JmO7Z4RenZ8>
 
 ## Details for teaching team
-* [main.css]: <http://p1.godfreycheng.me/css/main.css>
-* [git repo]: <https://github.com/gclc88/cscie15-p1>
+
 
 ## Outside code
 
