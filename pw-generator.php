@@ -24,10 +24,6 @@ if (isset($_POST['num'])) {
 	else
 		$errorMsg = "Entry must be a number";
 }
- 
-echo "wordSize is $wordSize <br>";
-echo "pwLength is $pwLength <br>";
-
 
 for ($x = 0; $x < $pwLength; $x++ ) {
 	$index = rand(0, $wordSize-1);

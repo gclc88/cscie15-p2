@@ -10,20 +10,23 @@
 
 
 <body>
-
-
+<H1> Password Generator </H1>
+<div class="center">
 <form action='index.php' method='POST'>
-	Number of Characters in password: <input type='text' name='num' maxlength="1" size="1"> (3-9)
+	Number of Characters: <input type='text' name='num' maxlength="1" size="1"> (3-9)
 		<span class="errorMessage"> <?php echo "$errorMsg" ?> </span> <br>
 	
 	<input type="checkbox" name="addNumber" value="Yes" /> Add Number <br>
 	<input type="checkbox" name="addSymbol" value="Yes" /> Add Symbol <br>
-	<input type='submit' value='Submit'>
+	<p><input type='submit' value='Submit'>
 </form>
+</div>
 
 <p>
-Generated Password: 
-<textarea rows="2" cols="50"> <?php echo "$password"; ?>
-</textarea>
+<div class="center output">
+<p> Generated Password: 
+	<div> <textarea rows="3" cols="50"> <?php echo "$password"; ?> </textarea>
+	</div>
+</div>	
 </body>
 </html>
