@@ -1,9 +1,9 @@
-<!DOCTYPE HTML SYSTEM>
+<!DOCTYPE HTML>
 <html>
 
 <head>
 	<title>CSCIE-15 Project 2</title>
-	<meta charset = "utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='css/main.css' rel='stylesheet'>
 	<?php require('pw-generator.php'); ?>
